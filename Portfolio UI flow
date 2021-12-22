@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-22T12:28:57.867Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="YOVMJ_otxb0HxxWvbvHV" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-22T12:43:37.854Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="HcpdCMvnYdGo0fwunZn5" version="16.0.3" type="github">
   <diagram id="Z7ldH7ZTQumscnf8PQvD" name="Page-1">
-    <mxGraphModel dx="2253" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,13 +43,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="q4zM6cPEo85_3Qfy9Lg3-17" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-320" y="10" width="300" height="330" as="geometry" />
+          <mxGeometry x="10" width="300" height="310" as="geometry" />
         </mxCell>
         <mxCell id="q4zM6cPEo85_3Qfy9Lg3-18" value="認証機能" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="115" y="10" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="q4zM6cPEo85_3Qfy9Lg3-20" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="340" y="-10" width="300" height="330" as="geometry" />
+          <mxGeometry x="340" y="-10" width="300" height="200" as="geometry" />
         </mxCell>
         <mxCell id="q4zM6cPEo85_3Qfy9Lg3-21" value="一覧ページ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="432.5" y="10" width="115" height="30" as="geometry" />
@@ -63,6 +63,40 @@
               <mxPoint x="290" y="220" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="q4zM6cPEo85_3Qfy9Lg3-25" value="投稿一覧" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="405" y="50" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="q4zM6cPEo85_3Qfy9Lg3-26" value="・投稿一覧を表示&#xa;・検索フォームで絞り込み&#xa;・ボタンで並び替え&#xa;・投稿をクリック&#xa;・投稿削除ボタンをクリック" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontStyle=0" vertex="1" parent="q4zM6cPEo85_3Qfy9Lg3-25">
+          <mxGeometry y="30" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="q4zM6cPEo85_3Qfy9Lg3-30" value="マイページ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="432.5" y="240" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q4zM6cPEo85_3Qfy9Lg3-31" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;fontSize=20;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="575" y="137.5" as="sourcePoint" />
+            <mxPoint x="670" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="138" />
+              <mxPoint x="670" y="353" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q4zM6cPEo85_3Qfy9Lg3-32" value="投稿一覧" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="405" y="280" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="q4zM6cPEo85_3Qfy9Lg3-33" value="・投稿一覧を表示&#xa;・タブで投稿絞り込み&#xa;・投稿をクリック&#xa;・投稿削除ボタンをクリック" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontStyle=0" vertex="1" parent="q4zM6cPEo85_3Qfy9Lg3-32">
+          <mxGeometry y="30" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q4zM6cPEo85_3Qfy9Lg3-34" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="220" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="q4zM6cPEo85_3Qfy9Lg3-36" value="投稿一覧" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-320" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="q4zM6cPEo85_3Qfy9Lg3-37" value="・投稿一覧を表示&#xa;・検索フォームで絞り込み&#xa;・ボタンで並び替え&#xa;・投稿をクリック&#xa;・投稿削除ボタンをクリック" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontStyle=0" vertex="1" parent="q4zM6cPEo85_3Qfy9Lg3-36">
+          <mxGeometry y="30" width="170" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
