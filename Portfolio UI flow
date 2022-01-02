@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-02T02:27:45.583Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="YdOcOJUQ_5uIT4UjNCwS" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-02T02:29:14.240Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="UqvAGnvFvoIkMmloPtRU" version="16.1.2" type="github">
   <diagram id="Z7ldH7ZTQumscnf8PQvD" name="Page-1">
     <mxGraphModel dx="1426" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -163,13 +163,13 @@
           <mxGeometry y="30" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="q4zM6cPEo85_3Qfy9Lg3-60" value="コメント" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="900" y="180" width="170" height="70" as="geometry" />
+          <mxGeometry x="900" y="180" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="q4zM6cPEo85_3Qfy9Lg3-61" value="・コメント一覧表示&#xa;・コメントを投稿&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontStyle=0" parent="q4zM6cPEo85_3Qfy9Lg3-60" vertex="1">
-          <mxGeometry y="30" width="170" height="40" as="geometry" />
+        <mxCell id="q4zM6cPEo85_3Qfy9Lg3-61" value="・コメント一覧表示&#xa;・コメントを投稿&#xa;・コメント削除" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontStyle=0" parent="q4zM6cPEo85_3Qfy9Lg3-60" vertex="1">
+          <mxGeometry y="30" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="q4zM6cPEo85_3Qfy9Lg3-62" value="コメント" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="900" y="260" width="170" height="70" as="geometry" />
+        <mxCell id="q4zM6cPEo85_3Qfy9Lg3-62" value="店舗検索" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="900" y="280" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="q4zM6cPEo85_3Qfy9Lg3-63" value="・レストラン表示ボタン&#xa;・ホテル検索ボタン" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontStyle=0" parent="q4zM6cPEo85_3Qfy9Lg3-62" vertex="1">
           <mxGeometry y="30" width="170" height="40" as="geometry" />
